@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Mills Motors</h2>
+        <p>
+           Looking for a place to have your car worked on. We do simple things
+      like changing your oil all the way up to engine rebuilds. Click on the 
+      button below to learn more about what specifics things we can help you
+      out with. When clicking on our link below you can also find
+       out more about us and our qualifications to work on your Vehicle.
+        </p>
+        
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://cdn.glitch.com/f69415fd-0634-4155-833a-f29ac24d5b73%2FMills%20Motors%20and%20Oil%20Change.png?v=1606796695149"
+        />
+        <div>
+          <ul>
+            <li>Oil Change</li>
+            <li>Vehicle Service</li>
+            <li>Engine work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!--     <button id="hidebutton" onclick="hideAds()">Hide Offers</button> -->
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Oil Offer</h4>
+        <p>
+         For returning customers, every oil change that is done their will be a price reduction
+          This could leaad to a free oil change depending on the vehicle.
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Rebuild Offer </h4>
+        <p>
+          If you are looking to have your engine and transmission worked on this is the place.
+          Depending on engine and vechile every engine aand transmission rebuildthe owner of the vehile will get free oil
+          changes for the year, or haalf off their transmissions rebuild.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+<div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
